@@ -1,0 +1,13 @@
+@use 'variables' as * ;
+@use 'sass:math';
+
+$Karla:'karla';
+
+@font-face {
+    font-family: 'karla';
+    @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+}
+
+html{
+    font-family: 'karla';
+}

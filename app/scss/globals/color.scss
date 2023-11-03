@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+
+// Primary
+
+$Cyan: hsl(179, 62%, 43%);
+$Bright-Yellow: hsl(71, 73%, 54%);
+
+// Neutral
+
+$Light-Gray: hsl(204, 43%, 93%);
+$Grayish-Blue: hsl(218, 22%, 67%);
+
+body{
+    background-color:$Light-Gray;
+}
+main article:nth-child(1){
+   background-color: #fff;
+   h1{color: $Cyan;}
+}
+main article:nth-child(2){
+    background-color:$Cyan;
+ }
+main article:nth-child(3){
+    background-color:$Cyan;
+    opacity: 75%;
+}
+main article:nth-child(1) p:nth-of-type(1){
+    color:$Bright-Yellow;
+   
+}
+
+main article:nth-child(1) p{
+    color: $Grayish-Blue;
+   
+}
+h2 ,p,dl,strong{
+    color: $Light-Gray;
+   
+}
+dl{
+    opacity: 75%;
+}
+span{
+    color: $Light-Gray;
+    opacity: 50%;
+}
+ 
+ button{
+    background-color: $Bright-Yellow;
+    color:$Light-Gray;
+ }
